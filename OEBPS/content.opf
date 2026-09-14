@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:12345678-1234-5678-1234-567812345678</dc:identifier>
+    <dc:title>Pierre Simon Laplace: 1749-1827; A Determined Scientist</dc:title>
+    <dc:creator>Roger Hahn</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date>2005</dc:date>
+    <dc:publisher>Harvard University Press</dc:publisher>
+    <dc:subject>Biography, Science, Mathematics, Physics</dc:subject>
+    <dc:description>A comprehensive biography of Pierre Simon Laplace, the Newton of France, exploring his scientific work, political roles, and personal life.</dc:description>
+    <meta name="cover" content="cover-image"/>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="css/style.css" media-type="text/css"/>
+    <item id="book" href="book.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="book"/>
+  </spine>
+</package>
